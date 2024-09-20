@@ -197,6 +197,17 @@ img {
 .page-section-second {
   padding: 120px 0;
 }
+.icons-section-second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}
 .main-text-page-section-second {
   display: flex;
   justify-content: center;
