@@ -349,9 +349,11 @@ img {
   padding: 100px 0;
   background: #2e2f42;
 }
-.container-footer {display: block;margin-right: 120px;
+.container-footer {
+  margin-right: 120px;
 }
-.footer-all{display: flex;align-items: baseline;
+.footer-all{display: flex;
+  align-items: baseline;
 }
 .logo-footer {
   display: inline-block;
@@ -384,7 +386,7 @@ img {
 .footer-sosial-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
   margin-top: 8px;
 }
 .footer-social-list-link {
@@ -402,5 +404,5 @@ img {
 }
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;;
 /*-----------Foooter---------------------------------------------*/
