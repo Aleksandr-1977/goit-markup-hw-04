@@ -349,12 +349,17 @@ img {
   padding: 100px 0;
   background: #2e2f42;
 }
-.container-footer {
-  margin-right: 120px;
-}
-.footer-all{display: flex;
+
+.container-footer {display: flex;
   align-items: baseline;
 }
+.footer-logo{
+  
+  margin-right: 120px;
+ 
+  
+}
+
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
