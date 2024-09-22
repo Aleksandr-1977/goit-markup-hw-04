@@ -383,9 +383,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .list-item-foto {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .list-item-foto-overlay {
   position: relative;
   overflow: hidden;
@@ -406,15 +408,18 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow: auto;
 }
+
 .list-item-foto:hover,
 .list-item-foto:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.list-item-foto-overlay:hover .overlay-text,
-.list-item-foto-overlay:focus .overlay-text {
+
+.list-item-foto:hover .overlay-text,
+.list-item-foto:focus .overlay-text {
   transform: translateY(0%);
 }
+
 /*-----------/Section4-------------------------------------------*/
 /*----------/Main------------------------------------------------*/
 /*-----------Footer----------------------------------------------*/
@@ -490,4 +495,5 @@ img {
 .footer-social-list-link:focus {
   background-color: #31d0aa;
 }
+
 /*-----------Foooter---------------------------------------------*/
